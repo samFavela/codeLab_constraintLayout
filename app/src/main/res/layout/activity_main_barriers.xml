@@ -10,6 +10,20 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="80dp">
 
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        tools:layout_editor_absoluteX="411dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        tools:layout_editor_absoluteX="411dp" />
+
     <ImageView
         android:id="@+id/header"
         android:layout_width="0dp"
@@ -41,8 +55,8 @@
         android:id="@+id/favorite"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/info_background"
         android:contentDescription="@string/placeholder"
         android:padding="5dp"
@@ -137,14 +151,12 @@
         android:id="@+id/cameraType"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/camera_value"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cameraLabel"
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_editor_absoluteX="73dp"
         app:layout_editor_absoluteY="176dp"
